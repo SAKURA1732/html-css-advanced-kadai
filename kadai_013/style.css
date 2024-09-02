@@ -76,7 +76,8 @@ PC用のスタイル
   @media screen and (max-width: 767px) {
   /* 横幅設定 */
     body {
-     margin: 0;
+      min-width: 375px;
+      margin: 0;
     }
 
     /* PC用ナビゲーション非表示 */
@@ -86,11 +87,8 @@ PC用のスタイル
   
     /* ハンバーガーメニュー */
     #menu-sp {
-      display: block;
-      background-color: transparent;
       float: right;
       padding: 0;
-      border: none;
     }
   
     /* スマホ用ナビゲーションの表示切替*/
@@ -118,8 +116,6 @@ PC用のスタイル
       position: absolute;
       top: 20px;
       right: 20px;
-      background-color: transparent;
-      border: none;   
     }
 
     #logo-sp {
